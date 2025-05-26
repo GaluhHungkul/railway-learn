@@ -1,7 +1,7 @@
 require("dotenv").config()
 const express = require("express")
 const app = express()
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3009
 const prisma = require("./lib/prisma")
 const cors = require("cors")
 
